@@ -49,7 +49,7 @@ class Router {
 
 let router = new Router();
 
-router.addRoute('/', () => {
+router.addRoute('/testStaticPage/', () => {
   routerView.innerHTML = '<p>这是首页</p>';
 });
 
